@@ -27,6 +27,8 @@ todoBtn.addEventListener('click', (e) => {
         todoDiv.appendChild(deleteBtn);
 
         todoList.appendChild(todoDiv);
+
+        todoInupt.value = "";
     } else {
         alert('Please Input A ToDo.')
     }
